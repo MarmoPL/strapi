@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "schools",
+  "info": {
+    "singularName": "school",
+    "pluralName": "schools",
+    "displayName": "Schools",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "venues": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::venue.venue",
+      "mappedBy": "school"
+    }
+  }
+}

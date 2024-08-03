@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "regulations",
+  "info": {
+    "singularName": "regulation",
+    "pluralName": "regulations",
+    "displayName": "Regulations"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Content": {
+      "type": "blocks"
+    }
+  }
+}
